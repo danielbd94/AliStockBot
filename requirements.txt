@@ -1,4 +1,3 @@
-requests
-python-dotenv
 undetected-chromedriver
 selenium
+requests
