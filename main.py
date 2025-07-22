@@ -12,14 +12,11 @@ from selenium.common.exceptions import TimeoutException
 load_dotenv()
 
 PRODUCT_URLS = [
-    "https://www.aliexpress.com/item/1005008878463323.html",
-    "https://www.aliexpress.com/item/1005009280996745.html",
-    "https://www.aliexpress.com/item/1005007350029637.html",
-    "https://www.aliexpress.com/item/1005009280991570.html",
-    "https://www.aliexpress.com/item/1005009281141074.html",
-    "https://www.aliexpress.com/item/1005009280927712.html",
-    "https://www.aliexpress.com/item/1005008411924664.html"
+    "LINK1",
+    "LINK2",
+    "LINK3"
 ]
+
 CHECK_INTERVAL = 120  # seconds
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
